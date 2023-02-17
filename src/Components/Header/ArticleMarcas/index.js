@@ -1,0 +1,1 @@
+export { ArticleMarcas } from './ArticleMarcas.jsx'

@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+  .logo {
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >img {
+      max-width: 50px;
+    }
+
+    button {
+      padding: 5px 20px;
+      background-color: black;
+      border: none;
+
+      img {
+        max-width: 25px;
+        min-width: 25px;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .userAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+
+    form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      input[type=text] {
+        padding: 5px;
+      }
+    }
+
+    label {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: white;
+
+      input {
+        margin-top: 4px;
+      }
+    }
+  }
+
+  .button1 {
+    background-color: white;
+    padding: 0px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
